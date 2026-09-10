@@ -39,16 +39,16 @@ aside {
     text-align: center;
 }
 
+p {
+    padding: 0;
+}
+
 aside img {
     width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-}
-
-aside p {
-    padding: 0;
 }
 
 footer {
