@@ -2,7 +2,6 @@
     --primary-color: #92e6ff;
     --secondary-color: #ffef62;
     --accent-color: #4a741c;
-    --accent1-color: #88b94f;
     --accent2-color: #f17b00;
     --accent3-color: #264653;
     --heading-font: Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
@@ -49,7 +48,7 @@ nav, p, section, article{
     height: auto;
 }
 
-h1{
+.hero h1{
     position: absolute;
     top: 20px;
     width: 100%;
@@ -60,7 +59,7 @@ h1{
     color: var(--accent3-color);
 }
 
-article{
+.hero article{
     position: absolute;
     top: 375px;
     margin: 0px 20px;
@@ -76,7 +75,7 @@ article{
     float: right;
     width: 125px;
     margin: 9px;
-    border: #f17b00 solid 2px;
+    border: var(--accent2-color) solid 2px;
 }
 
 section{
