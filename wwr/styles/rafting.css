@@ -90,7 +90,7 @@ footer p {
     font-size: 1.1rem;
 }
 
-.socialmedia {
+.socialmedia a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
