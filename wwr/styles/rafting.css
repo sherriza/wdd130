@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #c1903b;
-    --secondary-color: #ffef62;
-    --accent-color: #4a741c;
-    --accent2-color: #f17b00;
-    --accent3-color: #264653;
+    --primary-color: #C1903B;
+    --secondary-color: #F8E764;
+    --accent-color: #0288D1;
+    --accent2-color: #2E7D32;
+    --accent3-color: #1B1B1B;
     --heading-font: Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
     --body-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --section-gap: 1rem;
 }
 
 * {
@@ -44,14 +45,14 @@ nav {
     font-family: var(--body-font);
     padding: 5px 30px;
     font-size: 1.1rem;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--accent3-color);
     text-decoration: none;
 }
 
 body {
     font-family: var(--body-font);
-    color: var(--accent-color);
+    color: var(--accent3-color);
 }
 
 header,
@@ -59,12 +60,13 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    margin-top: var(--section-gap);
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 nav,
@@ -90,7 +92,7 @@ footer p {
     font-size: 1.1rem;
 }
 
-.socialmedia a {
+.socialmedia {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -116,7 +118,7 @@ footer p {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: var(--accent3-color);
+    color: var(--accent-color);
 }
 
 .hero article {
@@ -153,7 +155,7 @@ footer p {
     align-items: center;
     position: absolute;
     gap: 10px;
-    top: 800px;
+    top: 835px;
     left: 20%;
     right: 20%;
     padding: 5px;
@@ -195,26 +197,26 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
-    min-height: 300px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
     box-sizing: border-box;
 }
 
 .adventures h2 {
+    padding: 14px 0;
     grid-column: 1/-1;
     margin: 0;
-    text-align: center;
 }
 
 .adventures img {
     display: block;
     width: 100%;
-    height: 150px;
+    height: 100px;
     object-fit: cover;
 }
 
 .adventures figure {
-    margin: 0;
-    min-width: 0;
+    margin: 1.25rem;
 }
 
 .adventures figcaption {
