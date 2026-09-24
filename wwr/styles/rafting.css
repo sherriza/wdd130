@@ -1,7 +1,7 @@
 :root {
     --primary-color: #C1903B;
     --secondary-color: #F8E764;
-    --accent-color: #0288D1;
+    --accent-color: #006ca7;
     --accent2-color: #2E7D32;
     --accent3-color: #1B1B1B;
     --heading-font: Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
@@ -92,7 +92,7 @@ footer p {
     font-size: 1.1rem;
 }
 
-.socialmedia {
+.socialmedia a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
