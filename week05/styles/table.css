@@ -1,0 +1,23 @@
+table {
+    border: 2px solid grey;
+    letter-spacing: 1px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+thead tr,
+tfoot tr {
+    background-color: #000;
+    color: #eee;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) td:nth-child(n+1) {
+    background-color: bisque;
+}
