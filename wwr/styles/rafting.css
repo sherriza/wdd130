@@ -21,6 +21,8 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     box-sizing: border-box;
+    width: 840px;
+    margin: 0 auto;
 }
 
 header img {
@@ -53,11 +55,6 @@ nav {
 body {
     font-family: var(--body-font);
     color: var(--accent3-color);
-}
-
-header {
-    width: 840px;
-    margin: 0 auto;
 }
 
 main,
