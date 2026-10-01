@@ -148,17 +148,102 @@ section h2 {
     text-align: center;
 }
 
+.contact-info {
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.contact-info p {
+    padding: 2px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.map iframe {
+    width: 400px;
+    height: 350px;
+}
+
 form {
     display: grid;
-    width: 250px;
-    border: 1px solid var(--accent2-color);
-    padding: 10px;
+    width: 400px;
+    padding: 5px;
+    font-family: var(--body-font);
+
 }
 
 input,
 textarea {
     display: block;
     width: 100%;
-    max-width: 390px;
     padding: 5px;
+    border-radius: 5px;
+    border: .5px solid var(--accent3-color);
+    gap: 3px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.userinfo {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 5px;
+    align-items: center;
+}
+
+.userinfo input {
+    width: 83%;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 335px;
+    box-sizing: border-box;
+}
+
+.mes-purpose {
+    display: grid;
+    margin-top: 5px;
+}
+
+.mes-purpose table {
+    border-collapse: collapse;
+}
+
+input[type="radio"] {
+    display: inline;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+button:hover {
+    border: .13rem solid var(--accent2-color);
+    border-radius: 5px;
+    padding: 2px;
+    background: var(--accent2-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+button {
+    width: 335px;
+    border: .13rem solid var(--primary-color);
+    border-radius: 5px;
+    padding: 2px;
+    background: var(--secondary-color);
+    color: var(--accent2-color);
+    font-weight: 700;
 }
