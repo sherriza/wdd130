@@ -233,3 +233,136 @@ section h2 {
     margin-top: 5px;
     text-align: center;
 }
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+}
+
+.employees h2 {
+    padding: 15px 0 5px 0;
+    grid-column: 1/-1;
+    margin: 0;
+}
+
+.employees img {
+    display: block;
+    width: 60%;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.employees figure {
+    margin: 1.25rem;
+}
+
+.employees figcaption {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.contact-info p {
+    padding: 2px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.map iframe {
+    width: 400px;
+    height: 350px;
+    border: 0;
+}
+
+form {
+    display: grid;
+    width: 400px;
+    padding: 5px;
+    font-family: var(--body-font);
+
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: .5px solid var(--accent3-color);
+    gap: 3px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.userinfo {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 5px;
+    align-items: center;
+}
+
+.userinfo input {
+    width: 83%;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 335px;
+    box-sizing: border-box;
+}
+
+.mes-purpose {
+    display: grid;
+    margin-top: 5px;
+}
+
+.mes-purpose table {
+    border-collapse: collapse;
+}
+
+input[type="radio"] {
+    display: inline;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+
+button:hover {
+    border: .13rem solid var(--accent2-color);
+    border-radius: 5px;
+    padding: 2px;
+    background: var(--accent2-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+button {
+    width: 335px;
+    border: .13rem solid var(--primary-color);
+    border-radius: 5px;
+    padding: 2px;
+    background: var(--secondary-color);
+    color: var(--accent3-color);
+    font-weight: 700;
+}
