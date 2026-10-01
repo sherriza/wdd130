@@ -353,7 +353,7 @@ button:hover {
     border-radius: 5px;
     padding: 2px;
     background: var(--accent2-color);
-    color: var(--secondary-color);
+    color: white;
     font-weight: bold;
 }
 
