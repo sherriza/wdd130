@@ -2,7 +2,7 @@
     --primary-color: #C1903B;
     --secondary-color: #F8E764;
     --accent-color: rgb(0, 77, 119);
-    --accent2-color: #2E7D32;
+    --accent2-color: #246027;
     --accent3-color: #1B1B1B;
     --heading-font: Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
     --body-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -286,7 +286,6 @@ form {
     width: 400px;
     padding: 5px;
     font-family: var(--body-font);
-
 }
 
 input,
@@ -345,7 +344,7 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 
-button:hover {
+button[type="submit"]:hover {
     border: .13rem solid var(--accent2-color);
     border-radius: 5px;
     padding: 2px;
@@ -354,7 +353,7 @@ button:hover {
     font-weight: bold;
 }
 
-button {
+button[type="submit"] {
     width: 335px;
     border: .13rem solid var(--primary-color);
     border-radius: 5px;
@@ -362,4 +361,319 @@ button {
     background: var(--secondary-color);
     color: var(--accent3-color);
     font-weight: 700;
+}
+
+button[type="button"] {
+    width: 335px;
+    border: .13rem solid var(--primary-color);
+    border-radius: 5px;
+    padding: 2px;
+    background: var(--secondary-color);
+    color: var(--accent3-color);
+    font-weight: 700;
+}
+
+button a {
+    text-decoration: none;
+    color: var(--accent3-color);
+}
+
+button[type="button"]:hover {
+    padding: 10px;
+    margin: 1rem;
+    width: 200px;
+    font-weight: 800;
+    background: var(--accent2-color);
+    color: white;
+}
+
+.actionbutton button[type="button"] {
+    display: block;
+    align-items: center;
+    margin: 5px 200px 0;
+    width: 350px;
+    border: .13rem solid var(--primary-color);
+    border-radius: 20px;
+    padding: 15px;
+    background: var(--secondary-color);
+    color: var(--accent3-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.actionbutton button[type="button"]:hover {
+    width: 350px;
+    border: .13rem solid var(--primary-color);
+    border-radius: 20px;
+    padding: 15px;
+    background: rgb(248, 231, 100, 0.75);
+    color: var(--accent3-color);
+    font-weight: 700;
+}
+
+/* button a {
+    text-decoration: none;
+    color: var(--accent3-color);
+} */
+
+.offers {
+    margin: 1rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.offers a {
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.actionbutton {
+    display: flex;
+    position: absolute;
+    top: 450px;
+    margin: 0 2rem;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.awaits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+}
+
+.awaits h1 {
+    padding: 15 px 0 0;
+    grid-column: 1/-1;
+    margin: 0;
+    text-align: center;
+}
+
+.awaits img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.awaits figure {
+    margin: 1.25rem;
+}
+
+.awaits figcaption {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+.actionbutton3 a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+    color: var(--accent2-color);
+    font-weight: 700;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.testimonials h1 {
+    padding: 14px 0 0;
+    grid-column: 1/-1;
+    margin: 0;
+    text-align: center;
+}
+
+.testimonials img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.testimonials figure {
+    margin: 1.25rem;
+}
+
+.testimonials figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+form .signup {
+    padding: 5px;
+}
+
+.signup h3 {
+    padding: 0 0 15px 0;
+}
+
+.signup .userinfo {
+    margin: 5px;
+}
+
+.signup button {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.signup button:hover {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: var(--accent2-color);
+}
+
+/* Trips Page */
+
+.trip {
+    display: block;
+    text-align: center;
+}
+
+.trip p {
+    font-size: 20px;
+}
+
+.trip button {
+    padding: 10px;
+    margin: 1rem;
+    width: 200px;
+    font-weight: 800;
+}
+
+.trip button a {
+    text-decoration: none;
+    color: var(--accent3-color);
+}
+
+.trip button:hover a {
+    margin: 1rem;
+    width: 150px;
+    font-weight: 800;
+    color: white;
+}
+
+.more h3 {
+    padding: 15 px 0 0;
+    grid-column: 1/-1;
+    margin: 0;
+    text-align: center;
+    font-size: 23px;
+    color: var(--accent2-color);
+}
+
+.more button {
+    padding: 15 px 0 0;
+    grid-column: 1/-1;
+    margin: 0;
+    text-align: center;
+}
+
+.more button {
+    padding: 10px;
+    margin: 0 2rem;
+    width: 200px;
+    font-weight: 800;
+}
+
+.more button a {
+    text-decoration: none;
+    color: var(--accent3-color);
+}
+
+.more button:hover a {
+    margin: 1rem;
+    width: 200px;
+    font-weight: 800;
+    color: white;
+}
+
+.more {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.more img {
+    display: block;
+    width: 70%;
+    height: 190px;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 3px solid var(--primary-color);
+    padding: 5px;
+    background-color: var(--secondary-color);
+}
+
+.more figure {
+    margin: 1.25rem;
+}
+
+.more figcaption {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+.more p {
+    display: block;
+    text-align: center;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.trips h3 {
+    padding: 15 px 0 0;
+    grid-column: 1/-1;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    color: var(--accent-color);
+}
+
+.trips img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 3px solid var(--accent2-color);
+    padding: 8px;
+    background-color: var(--secondary-color);
+}
+
+.trips p {
+    display: block;
+    text-align: center;
+}
+
+.trips figure {
+    margin: 1.25rem;
+}
+
+.trips figcaption {
+    margin-top: 5px;
+    text-align: center;
 }
