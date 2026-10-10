@@ -448,7 +448,7 @@ button[type="button"]:hover {
 }
 
 .awaits h1 {
-    padding: 15 px 0 0;
+    padding: 15px 0 0;
     grid-column: 1/-1;
     margin: 0;
     text-align: center;
@@ -569,38 +569,12 @@ form .signup {
 }
 
 .more h3 {
-    padding: 15 px 0 0;
+    padding: 15px 0 0;
     grid-column: 1/-1;
     margin: 0;
     text-align: center;
     font-size: 23px;
     color: var(--accent2-color);
-}
-
-.more button {
-    padding: 15 px 0 0;
-    grid-column: 1/-1;
-    margin: 0;
-    text-align: center;
-}
-
-.more button {
-    padding: 10px;
-    margin: 0 2rem;
-    width: 200px;
-    font-weight: 800;
-}
-
-.more button a {
-    text-decoration: none;
-    color: var(--accent3-color);
-}
-
-.more button:hover a {
-    margin: 1rem;
-    width: 200px;
-    font-weight: 800;
-    color: white;
 }
 
 .more {
@@ -645,7 +619,7 @@ form .signup {
 }
 
 .trips h3 {
-    padding: 15 px 0 0;
+    padding: 0 15px 0 0;
     grid-column: 1/-1;
     margin: 0;
     text-align: center;
