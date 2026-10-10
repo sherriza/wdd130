@@ -511,8 +511,14 @@ button[type="button"]:hover {
 .testimonials figcaption {
     margin-top: 10px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
     font-size: large;
+}
+
+.testimonials p {
+    display: flex;
+    padding: 70px 0;
+    font-size: 20px;
 }
 
 form .signup {
