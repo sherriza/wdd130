@@ -639,6 +639,8 @@ form .signup {
 .more p {
     display: block;
     text-align: center;
+    padding-top: 0;
+    font-size: 18px;
 }
 
 .trips {
@@ -675,7 +677,7 @@ form .signup {
     display: block;
     text-align: center;
     padding-top: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .trips figure {
