@@ -583,7 +583,7 @@ button[type="button"]:hover {
     padding: 8px 60px;
     margin: 1rem;
     width: 150px;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 5px;
     text-decoration: none;
     color: var(--accent3-color);
